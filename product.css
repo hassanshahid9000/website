@@ -1,0 +1,760 @@
+-btn.btn-black {
+    background-color: black;
+    color: white;
+    border: 1px solid #333;
+    padding: 20px;
+  }
+
+  .btn-black:hover {
+    background-color: #444;
+    color: white;
+  }
+  .offcanvas-title{
+    font-weight: 300;
+  }
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+  }
+
+  .element {
+      text-align: center;
+      margin: 0px;
+      padding: 0.3125rem 0.625rem;
+      left: 0px;
+      height: auto;
+      width: 100%;
+      box-sizing: border-box;
+      border: none;
+      background-color: rgb(34, 34, 34);
+      color: rgb(255, 255, 255);
+      font-size: 1.25rem;
+      cursor: default;
+      line-height: 1.171875rem;
+      font-family: Montserrat;
+  }
+
+  .element2 {
+      background-color: #f39c12;
+      color: white;
+      padding: 0.625rem 1.25rem;
+      font-size: 1rem;
+      font-weight: bold;
+      text-align: center;
+      width: auto;
+      cursor: pointer;
+      max-width: 100%;
+  }
+  /* Navbar brand link styling */
+.navbar-brand {
+    font-family: 'Arial', sans-serif;  /* Use Arial for simplicity */
+    font-size: 1.5rem;                 /* Adjust font size */
+    font-weight: bold;                 /* Make the brand name bold */
+    color: #333;                       /* Text color */
+    text-decoration: none;             /* Remove the underline */
+    padding: 10px 20px;                /* Add padding around the text */
+    display: inline-block;             /* Display as an inline block for spacing */
+    transition: all 0.3s ease;         /* Smooth transition for hover effects */
+}
+
+/* Hover effect for the navbar brand link */
+.navbar-brand:hover {
+    color: #007bff;                   /* Change color on hover */
+    text-decoration: underline;        /* Underline text on hover */
+    transform: scale(1.1);             /* Slightly enlarge the brand name on hover */
+}
+
+/* Optional: Make sure it stays within a flex container, and behaves properly in responsive designs */
+.navbar {
+    display: flex;                     /* Flex layout for the navbar */
+    justify-content: flex-start;       /* Align the brand to the left */
+    align-items: center;               /* Vertically center the items */
+    padding: 10px 20px;                /* Add padding to the navbar */
+    background-color: #f8f9fa;         /* Light background color */
+}
+
+  .device3 {
+      padding: 10px;
+      margin-left: 15px;
+      gap: 50px;
+  }
+
+  .device2 {
+      margin-left: 15px;
+      padding: 10px;
+      gap: 48px;
+  }
+
+  .device {
+      margin-left: 15px;
+      gap: 3.75rem;
+  }
+
+  .container {
+      width: 100%;
+      overflow: hidden;
+  }
+
+  .nav-item.dropdown:hover .dropdown-menu {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+  }
+
+  .dropdown-menu {
+      display: none;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  .navbar {
+      height: 5.9375rem;
+  }
+
+  .back {
+      display: flex;
+      margin-right: 100px;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+  }
+
+  .nav-link:focus,
+  .nav-link:active,
+  .dropdown-item:focus,
+  .dropdown-item:active {
+      background-color: transparent !important;
+      /* Ensures no background color */
+      color: inherit !important;
+      /* Keeps the text color unchanged */
+      outline: none !important;
+  }
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); /* Black with opacity */
+  }
+
+  /* Modal Content */
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+  }
+
+  /* Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .none {
+      display: flex;
+      gap: 3.125rem;
+  }
+
+  .card {
+      width: 100%;
+      /* Image container takes 30% of the width */
+  }
+
+  .image-container {
+      width: 100%;
+      position: relative;
+  }
+
+
+  .card-img-top {
+      width: 100%;
+      /* Image fills the container */
+      height: 450px;
+      display: block;
+  }
+
+
+  .hover-img {
+      display: none;
+      /* Hide second image by default */
+  }
+
+  .card:hover .hover-img {
+      display: block;
+      /* Show the second image on hover */
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 450px;
+      z-index: 2;
+  }
+
+  .card img {
+      width: 100%;
+      height: 450px;
+  }
+
+  .textarea {
+      flex: 1;
+      width: 100%;
+  }
+  .double {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      gap: 30px;
+      padding: 30px;
+  }
+
+  .more {
+      text-align: left;
+      font-weight: 400;
+  }
+  .card-img-tops {
+    width: 100%;
+    /* Image fills the container */
+    height: auto;
+    display: block;
+}
+  .starflex2 {
+      display: block;
+      align-items: center;
+      width: 40%;
+  }
+
+  .stars2 {
+      color: goldenrod;
+      font-size: 1rem;
+      display: flex;
+      padding-bottom: 15px;
+      gap: 5px;
+  }
+
+  .reviews2 p {
+      font-size: 14px;
+      color: #333;
+  }
+
+  .lock {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .fly {
+      text-decoration: line-through;
+      color: red;
+  }
+
+  .offer {
+      color: rgb(16, 1, 1);
+      text-align: center;
+      border: 2px solid black;
+      border-radius: 3.125rem;
+      cursor: pointer;
+      padding: 0.3125rem 0.9375rem;
+      margin-bottom: 10px;
+      font-size: 14px;
+  }
+
+  .box2 {
+      display: flex;
+      gap: 6px;
+      margin-left: 10px;
+  }
+  .line {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+
+  #fname2 {
+      width: 100%;
+      /* Set a custom width for the input */
+      padding: 0.1rem;
+      /* Padding inside the input field */
+      margin: 0.3125rem 0;
+      /* Margin around the input */
+      border: 1px solid #ccc;
+      /* Light border color */
+      border-radius: 0.25rem;
+      /* Rounded corners */
+      font-size: 1.2rem;
+      /* Larger font size for better visibility */
+      text-align: center;
+      /* Center the text (number) inside the input */
+      box-sizing: border-box;
+      /* Ensure padding and border are included in width */
+      display: block;
+      /* Make it block-level to take up the container width */
+      background-color: #f9f9f9;
+      /* Optional background color */
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+      /* Smooth transition */
+  }
+   .block {
+    display: flex;
+    gap: 10px;
+    width: 60%;
+   }
+  .quantity-wrapper {
+      display: block;
+      align-items: center;
+      gap: 20rem;
+      width: 50%;
+  }
+  .bold-element{
+    margin-top: 10px;
+  }
+   /* Style for the container around the input */
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  /* Style for the input field */
+  #fname2 {
+    width: 100%;
+    padding: 10px;
+    padding-left: 30px; /* Space for the minus sign */
+    padding-right: 30px; /* Space for the plus sign */
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+  /* Remove the focus outline and border color change */
+input:focus, input:hover {
+    outline: none;  /* Removes the outline */
+    border: 1px solid #ccc; /* Optional: Set your own border color */
+  }
+  
+  /* Optional: Remove color change */
+  input {
+    color: initial; /* Prevents color change */
+    background-color: initial; /* Prevents background color change */
+  }
+  
+  /* Position the minus button inside the input */
+  .minus,
+  .plus {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #1d1919;
+    cursor: pointer;
+  }
+  
+  .minus {
+    left: 10px; /* Adjust to position the minus sign inside the input */
+  }
+  
+  .plus {
+    right: 10px; /* Adjust to position the plus sign inside the input */
+  }
+  
+  .portion {
+    display: flex;
+    padding-top: 10px;
+  }
+
+  .minus,
+  .plus {
+      cursor: pointer;
+      padding: 0.3125rem;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 0.3125rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  /* Basic Reset for Consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure button text is uniform and properly centered */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;  /* Fixed width for consistency */
+    height: 40px; /* Fixed height for consistency */
+    padding: 8px; /* Internal padding for spacing */
+    font-size: 14px; /* Uniform font size */
+    color: rgb(11, 1, 1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for color and background */
+    margin: 5px; /* Space between buttons */
+}
+
+.box h6 {
+    margin: 0; /* Remove any margin from h6 for exact alignment */
+    font-size: inherit; /* Ensure font size is inherited from .box */
+}
+
+/* Active state - when a button is clicked */
+.box.active {
+    background-color: #000000;
+    color: white;
+    border-color: #000000;
+}
+
+/* Hover state */
+.box:hover {
+    background-color: #000000;
+    color: white;
+    border-color: #000000;
+}
+
+/* Flex container for arranging buttons */
+.onlydiv {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    }
+
+/* Optional: Adding responsiveness */
+@media (max-width: 600px) {
+    .box {
+        font-size: 12px; /* Smaller font size for smaller screens */
+        padding: 6px; /* Adjust padding for smaller screens */
+    }
+}
+
+
+  .arrows {
+      display: flex;
+      gap: 300px;
+  }
+
+  .left,
+  .right {
+      display: flex;
+      align-items: center;
+  }
+
+  footer.bull {
+      background-color: #0a0000;
+      color: #d4d4d4;
+      padding-top: 20px;
+      padding-bottom: 0px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      border-top: 1px solid #333;
+      border-bottom: 1px solid white
+  }
+
+  footer .cops {
+      display: flex;
+      flex-direction: column;
+      margin: 1.25rem;
+      padding: 1.25rem;
+      text-align: left;
+      width: 18.75rem;
+      align-items: flex-start;
+      border-radius: 0.375rem;
+  }
+
+  .proper {
+      display: flex;
+      background-color: #000000;
+  }
+
+  footer h2 {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: white;
+      margin-bottom: 0.9375rem;
+      gap: 1.25rem;
+      padding-bottom: 0.3125rem;
+  }
+
+  footer .menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  footer .menu .item {
+      color: #d4d4d4;
+      text-decoration: none;
+      display: block;
+      padding: 0.625rem 0.9375rem;
+      font-size: 1rem;
+      border-radius: 0.25rem;
+      transition: background-color 0.3s ease;
+  }
+
+  footer .menu .item:hover {
+      background-color: black;
+      color: white;
+  }
+
+  @media (max-width: 768px) {
+      footer .container {
+          display: block;
+          width: 100%;
+          margin: 0.625rem 0;
+          padding: 0.9375rem 0;
+      }
+  }
+
+  .badge1 {
+      position: relative;
+      overflow: hidden;
+      background: none;
+      text-align: center;
+      width: 18.75rem;
+      height: 8.75rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .cnt {
+      position: relative;
+      white-space: nowrap;
+      text-align: center;
+      line-height: 0;
+      top: -5.625rem;
+      font-size: 2.0625rem;
+      color: #FFFFFF;
+  }
+
+  .stars {
+      color: goldenrod;
+      font-size: 0.625rem;
+      flex: 1;
+  }
+
+  .txtlabel {
+      margin-top: -4.875rem;
+      font-size: 0.8rem;
+      font-weight: bold;
+      color: #333;
+      text-transform: uppercase;
+  }
+
+  .txtlabe2 {
+      position: absolute;
+      white-space: nowrap;
+      margin-top: 0.625rem;
+      font-size: 0.3125rem;
+      width: 100%;
+      text-align: center;
+  }
+
+  .qrcode {
+      display: flex;
+      /* Aligns the qr1 and qr2 divs next to each other */
+      gap: 20px;
+      /* Adds space between qr1 and qr2 */
+      justify-content: center;
+      /* Centers the content horizontally */
+      align-items: center;
+      /* Centers the content vertically */
+  }
+
+  .qr1,
+  .qr2 {
+      display: flex;
+      flex-direction: column;
+      /* Stack images vertically within each div */
+      align-items: center;
+      /* Centers images horizontally */
+  }
+
+  .codeimg
+  {
+      width: auto;
+      /* Allow the width to be auto (adjust to the container size) */
+      height: auto;
+      /* Allow the height to adjust according to the aspect ratio */
+      max-width: 100%;
+      /* Ensure the image doesn’t overflow its container */
+      max-height: 100%;
+      /* Prevent the image from exceeding the container height */
+  }
+  .qrimg {
+    width: 100px;  /* Set a specific width */
+    height: auto;  /* Maintain aspect ratio */
+  }
+  
+  @media (max-width: 768px) {
+      .qrcode {
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .qr1,
+      .qr2 {
+          width: 80%;
+          /* Ensure the blocks are not too wide on small screens */
+          margin-bottom: 15px;
+          /* Space between the QR code blocks */
+      }
+
+      .codeimg {
+          width: 100px;
+          /* Smaller images on mobile */
+          height: 80px;
+          /* Adjust height for mobile */
+      }
+
+      .qrimg {
+          width: 100px;
+          /* Smaller QR code images */
+          height: auto;
+      }
+  }
+
+  .none2{
+    padding: 10px;
+    display: block;
+    display: flex;
+  }
+  .socialbar {
+      display: flex;
+      margin-bottom: 10px;
+      gap: 20px;
+      font-size: 1.5rem;
+      color: white;
+      background-color: #0a0000;
+      justify-content: center;
+  }
+
+  .socialbar i:hover {
+      color: #1da1f2;
+      transform: scale(1.2);
+      cursor: pointer;
+  }
+
+  .footer-coloum {
+      height: 15px;
+      width: 100%;
+      background-color: black;
+  }
+
+  .footer-page {
+      background-color: black;
+      color: #fff;
+      padding: 10px 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      text-align: start;
+  }
+
+  .footer-caption {
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+  }
+
+  .copy-caption {
+      font-size: 0.8rem;
+      color: #ccc
+  }
+
+  .copy-caption a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 5px;
+      cursor: pointer;
+  }
+
+  .unstyle {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 10px;
+  }
+
+  .payion {
+      justify-content: flex-end;
+      display: grid;
+      grid-template-rows: auto auto 1fr auto;
+      grid-template-columns: 100%;
+      min-height: 100%;
+      margin: 0;
+      font-size: 1.5rem;
+      letter-spacing: 0.06rem;
+      line-height: calc(1 + 0.8 / var(--font-body-scale));
+      font-family: var(--font-body-family);
+      font-style: var(--font-body-style);
+      font-weight: var(--font-body-weight);
+  }
+
+  .back3 {
+      background-color: #0a0000;
+      display: flex;
+  } /* Customize the button to have a black background */
+  .btn.btn-dark {
+    margin-top: 10px;
+    background-color: black;  /* Set background color to black */
+    color: white;             /* Set text color to white for contrast */
+    border: 1px solid #ccc;  /* Optional: add a border around the button */
+    border-radius: 5px;      /* Optional: round the corners of the button */
+    transition: background-color 0.3s, transform 0.3s ease;  /* Smooth transition effects */
+  }
+a {
+    text-decoration: none;  /* Remove underline from the link */
+  }
+  
+  /* Style for the image inside the anchor tag */
+  #logo {
+    width: 80px;          /* Set the width of the image (adjust as needed) */
+    height: auto;          /* Maintain the aspect ratio of the image */
+    display: block;        /* Make the image a block element to remove any space below it */
+    margin: 0 auto;        /* Center the image horizontally */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for transform and opacity */
+    border-radius: 30px;
+  }
+  
+  /* Optional: Add a hover effect on the anchor tag */
+  a:hover #logo {
+    transform: scale(1.1);  /* Slightly enlarge the image on hover */
+    opacity: 0.8;           /* Change the opacity to create a fade effect */
+  }
+  .btn-black {
+    background-color: black; /* Set the background to black */
+    color: white; /* Ensure the text is visible on a black background */
+  }

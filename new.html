@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>New project</title>
+</head>
+
+<body style="background-color: antiquewhite; min-height: 100vh;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="left-navbar" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <img src="asset/logo-light.svg">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Insights</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-navbar" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <a class="nav-link active" aria-current="page" href="#">
+                    <span>Request a Demo</span>
+                </a>
+                <a class="nav-link active" aria-current="page" href="#">
+                    <span>log in</span>
+                </a>
+                <button class="web4">start free trail</button>
+                <div class="back">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <span>En</span>
+                    <span data-uc-navbar-parent-icon class="uc-icon uc-navbar-parent-icon">
+                        <svg width="12" height="12" viewBox="0 0 12 12">
+                            <polyline fill="none" stroke="#000" stroke-width="1.1" points="1 3.5 6 8.5 11 3.5">
+                            </polyline>
+                        </svg>
+                    </span>
+                    <div class="vertical-line-content">
+                        <ul>
+                            <li style="font-size: 20px;">En</li>
+                            <li style="font-size: 20px;">Ar</li>
+                            <li style="font-size: 20px;">Ch</li>
+                        </ul>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mx-w-xl">
+        <div class="section-inner panel py-4">
+            <div class="row">
+                <div class="col-12 col-sm-9 col-lg-5">
+                 <div class="none">
+                    <span>CRM TooL Workflow</span>
+                    <h1 class="line">streamline your Tool Workflow.</h1>
+                    <p class="key">Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.</p>
+                    <div class="input-group input-group-lg">
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Your email Address">
+                      </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    // JavaScript to toggle the vertical line display when the polyline is clicked
+    const polylineIcon = document.querySelector('.uc-icon');
+    const verticalLineContent = document.querySelector('.vertical-line-content');
+
+    polylineIcon.addEventListener('click', () => {
+        // Toggle the visibility of the vertical line content
+        if (verticalLineContent.style.display === 'none' || verticalLineContent.style.display === '') {
+            verticalLineContent.style.display = 'block';
+        } else {
+            verticalLineContent.style.display = 'none';
+        }
+    });
+</script>
+
+</html>

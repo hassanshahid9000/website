@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - E-commerce Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="ind.css"
+</head>
+<style>
+     .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-control{
+    width: 233px;
+    height: 50px;
+  }
+  .custom-input {
+    width: 488px;
+    height: 50px;
+    cursor: text;
+    font-size: 15px;
+    border: auto;
+    border-radius: 5px;
+    padding: 15px;
+  }
+
+  .custom-input:focus {
+    border-color: black;
+    /* Keeps the border black on focus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    /* Optional: Add a slight shadow effect on focus */
+    outline: none;
+    /* Remove default outline on focus */
+  }
+
+  .line {
+    font-size: 14px;
+    color: #222222;
+  }
+
+  .form-row {
+    display: flex;
+    gap: 15px;
+    /* Space between the input fields */
+  }
+
+  .input-field {
+    flex: 1;
+    /* Make each field take up an equal width */
+  }
+
+  .input-field label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .input-field input {
+    width: 100%;
+    /* Ensures the input fields fill the container */
+    height: 40px;
+    /* Set height for consistency */
+  }/* Style for the checkboxes */
+.custom-checkbox {
+ cursor: pointer; 
+ margin-bottom: 10px;  
+ background-color: black;  
+}    
+.polo{
+    font-size: 15px;
+   max-width:500px;
+}.proper {
+    font-family: Arial, sans-serif; /* Set a clean font */
+    font-size: 16px; /* Adjust text size */
+    line-height: 1.6; /* Increase line height for better readability */
+    color: #333; /* Dark text color */
+    background-color: #f9f9f9; /* Light background color */
+    padding: 15px; /* Add padding around the text */
+    border: 1px solid #ccc; /* Light border color */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better contrast */
+    max-width: 500px; /* Limit the width */
+  }
+  .mydiv{
+    display: flex;
+    flex: 1;
+  }
+  .container mt-5{
+    padding-left: 210px;
+    background-color: #ccc;
+  }
+  /* Styling for the button with class 'case' */
+.case {
+    background-color: #000000; /* Blue background color */
+    color: white; /* White text color */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    padding: 12px 185px; /* Padding inside the button */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Center the text */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for background and scaling */
+    outline: none; /* Remove the default focus outline */
+  }
+  
+  /* Hover effect */
+  .case:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+    transform: scale(1.05); /* Slightly increase the size when hovered */
+  }
+  
+  /* Active state (when button is clicked) */
+  .case:active {
+    background-color: #004085; /* Even darker blue on press */
+    transform: scale(1); /* Reset scale when clicked */
+  }
+  
+  /* Focus state (when the button is focused) */
+  .case:focus {
+    box-shadow: 0 0 0 2px rgba(38, 143, 255, 0.5); /* Blue shadow on focus */
+  }
+  .col-md-5{
+    background-color: antiquewhite;
+    padding: 30px;
+  }
+  .myimag{
+    width: 10%;
+    height: 10%;
+  }
+  .payion{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+  }
+  .input-group mb-3{
+    display: flex;
+    gap: 20px;
+  }
+  .input-group mb-3{
+    padding-left: 20px;
+  }
+  .input-group {
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+  }
+
+  .input-group .form-control {
+    flex: 1; /* Makes the input field take up remaining space */
+    margin-left: 20px; /* Space between input and label */
+  }
+</style>
+<body>
+  <div class="mydiv">
+  <div class="container mt-5">
+    <div class="container">
+      <div class="col-md-7">
+        <div class="center-container">
+          <img src="asset/download9.png" class="center-image">
+        </div>
+        <div class="mb-4">
+          <label for="name" class="form-label">
+            <h4>Contact</h4>
+          </label>
+          <input type="text" class="form-control custom-input" id="name" name="name" placeholder="Email" required>
+        </div>
+        <div class="mb-3">
+          <input type="checkbox" class="custom-checkbox" id="subscribe" name="subscribe">
+          <label for="subscribe" class="form-check-label">Email with the news and offer</label>
+        </div>
+        <h5>Delivrey</h5>
+        <p class="line">This will be also used as your billingaddress for this order</p>
+        <div class="mb-3">
+          <input type="text" class="form-control custom-input" id="name" name="name" placeholder="country/region" value="Pakistan" required>
+        </div>
+        <div class="mb-3 row">
+          <div class="col-md-6">
+            <input type="text" class="form-control" id="first-name" name="first-name" placeholder="first Name" required>
+          </div>
+          <div class="col-md-6">
+            <input type="text" class="form-control" id="last-name" name="last-name" placeholder="last Name" required>
+          </div>
+        </div>
+        <div class="mb-4">
+          <input type="text" class="form-control custom-input" id="name" name="name" placeholder="Address" required>
+        </div>
+        <div class="mb-3 row">
+          <div class="col-md-6">
+            <input type="text" class="form-control" id="first-name" name="first-name" placeholder="City" required>
+          </div>
+          <div class="col-md-6">
+            <input type="text" class="form-control" id="last-name" name="last-name" placeholder="postal code(Optional)" required>
+          </div>
+        </div>
+        <div class="mb-4">
+          <input type="text" class="form-control custom-input" id="name" name="name" placeholder="Phone" required>
+        </div>
+         <div class="mb-3">
+          <input type="checkbox" class="custom-checkbox" id="subscribe" name="subscribe">
+          <label for="subscribe" class="form-check-label">save this information for next time</label>
+        </div>
+        <div class="mb-3">
+          <input type="checkbox" class="custom-checkbox" id="subscribe" name="subscribe">
+          <label for="subscribe" class="form-check-label">text me with the news and offer</label>
+        </div>
+        <h5>Shipping method</h5>
+        <div class="mb-4">
+          <input type="text" class="form-control custom-input" id="name" name="name" placeholder="free shipping Across Pakistan" required>
+        </div>
+        <div>
+        <h4>Payment</h4>
+        <p class="polo">your payment method'sbilling address must watch the shipping address.All transaction are secureand encrypted</p>
+        <div class="mb-4">
+          <div class="input-group">
+            <div class="input-group-text">
+              <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
+            </div>
+            <input type="text" class="form-control" aria-label="Text input with radio button" placeholder="Cash On delivery(COD)">
+          </div>
+          <div class="proper">cash on delivery (COD) is a payment option that allow the buyer to pay when the
+         product is deliverd to him.Once the courier has received the money,only then will he give the parcel to the custmer</div>
+         <div class="input-group">
+          <div class="input-group-text">
+            <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
+          </div>
+          <input type="text" class="form-control" aria-label="Text input with radio button" placeholder="PAYFAST(pay via Debit/Credit/Wallet/Bank account)">
+        </div>
+         <div class="input-group">
+          <div class="input-group-text">
+            <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
+          </div>
+          <input type="text" class="form-control" aria-label="Text input with radio button" placeholder="Baadmay|Buy Now.pay Later">
+        </div>
+        </div>
+      </div>
+    </div>
+    <buttton class="case">
+      complete order
+    </buttton>
+  </div>
+    </div>
+    
+    
+      <div class="col-md-5">
+        <div class="payion">
+          <img src="asset/1mag5.webp" class="myimag">
+            <p>Cut label men's pockets style fleece jacket <span style="color: black; font-weight: 400; display: block;">black/S</span></p>
+            <span>RS:1899:00</span>
+        </div>
+      
+        <div class="payion">
+          <img src="asset/hassi00.jpg" class="myimag">
+            <p>Men's Mainz Bodywarmer Puffer Gilet<span style="color: black; font-weight: 400; display: block;">black/S</span></p>
+            <span>RS:1500:00</span>
+        </div>
+      
+        <div class="input-group mb-3">
+          <div class="col-md-5">
+            <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Discount code or gift card" required>
+          </div>
+          <label class="input-group-text" for="inputGroupSelect02">Apply</label>
+        </div>      
+      </div>
+  </div>
+
+  <!-- Bootstrap JS Bundle (includes Popper.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var inputField = document.getElementById('name');
+
+      // Detect if the field is empty, and show placeholder if it's empty
+      inputField.addEventListener('focus', function () {
+        if (inputField.value === 'Pakistan') {
+          inputField.value = '';  // Clear the default "Pakistan" value when focused
+        }
+      });
+
+      inputField.addEventListener('blur', function () {
+        if (inputField.value === '') {
+          inputField.value = 'Pakistan';  // Reset to "Pakistan" if left empty
+        }
+      });
+    });
+
+  </script>
+</body>
+
+</html> 

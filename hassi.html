@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Size and Quantity Selection</title>
+  <style>
+    /* Styling for size buttons */
+    .box {
+      padding: 10px 20px;
+      margin: 5px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+
+    .box.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    /* Styling for quantity input */
+    .quantity-selection {
+      margin-top: 20px;
+    }
+
+    #quantity {
+      width: 50px;
+      text-align: center;
+      font-size: 16px;
+      padding: 5px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Size Selection -->
+  <div class="size-selection">
+    <button class="box" data-size="S">S</button>
+    <button class="box" data-size="M">M</button>
+    <button class="box" data-size="L">L</button>
+    <button class="box" data-size="XL">XL</button>
+    <h6 id="selected-size">Size: None</h6> <!-- Display the selected size -->
+  </div>
+
+  <!-- Quantity Selection -->
+  <div class="quantity-selection">
+    <button id="minus">-</button>
+    <input type="number" id="quantity" value="1" min="1" readonly>
+    <button id="plus">+</button>
+  </div>
+
+  <script>
+    // JavaScript to handle button click and toggle active class for size selection
+    document.querySelectorAll('.box').forEach(function(button) {
+      button.addEventListener('click', function() {
+        // Remove active class from all buttons
+        document.querySelectorAll('.box').forEach(function(btn) {
+          btn.classList.remove('active');
+        });
+        
+        // Add active class to the clicked button
+        button.classList.add('active');
+        
+        // Get the size from the data-size attribute
+        const selectedSize = button.getAttribute('data-size');
+        
+        // Update the text of the h6 element with the selected size
+        document.getElementById('selected-size').textContent = 'Size: ' + selectedSize;
+      });
+    });
+
+    // JavaScript for quantity selection (increment and decrement)
+    document.addEventListener("DOMContentLoaded", function () {
+      const quantityInput = document.getElementById("quantity");
+      const plusButton = document.getElementById("plus");
+      const minusButton = document.getElementById("minus");
+
+      // Increment the value
+      plusButton.addEventListener("click", function () {
+        let currentValue = parseInt(quantityInput.value, 10);
+        quantityInput.value = currentValue + 1;
+      });
+
+      // Decrement the value, ensuring it doesn't go below 1
+      minusButton.addEventListener("click", function () {
+        let currentValue = parseInt(quantityInput.value, 10);
+        if (currentValue > 1) {
+          quantityInput.value = currentValue - 1;
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

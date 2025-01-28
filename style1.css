@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+  }
+  .container {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tab-pane {
+    display: none; /* Hide all tab content by default */
+  }
+  .tab-pane.active {
+    display: block; /* Only show active tab content */
+  }
+  .owl-carousel .item img {
+    width: 100%;
+    height: auto;
+  }
+  .flyer2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .fly2 {
+    color: #FF0000; 
+    text-decoration: line-through;
+  }
+  
+  .fuller2 {
+    color: #000000;
+  text-decoration: none;  
+  }
+   .web2 {
+    background-color: aliceblue;
+      padding: 10px 80px;
+      border-radius: 10px;
+      border-radius: 1px; 
+      cursor: pointer;
+      transition: background-color 0.3s ease;  
+  }
+  .web2:hover {
+    background-color: #008080;
+    color: white;
+  }
+.starflex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px; 
+  }
+  .star {
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: gold;
+    margin: 0;
+  }
+  .name {
+    display: flex;
+    justify-content: center; 
+    padding-bottom: 50px;
+    align-items: center;     
+    height: 100px;           
+  }
+  /* Styling for the product title */
+.none {
+    font-size: 1.2rem;          /* Set a base font size */
+    font-weight: 600;           /* Make the title bold */
+    color: #333333;                /* Dark gray color for the text */
+    margin: 15px 0;             /* Top and bottom margins */
+    height: 30px;               /* Limit the height to 60px for consistency */
+    line-height: 1.4;           /* Adjust line height for spacing */
+    overflow: hidden;           /* Hide overflowing text */
+    cursor: pointer;            /* Change the cursor to a pointer */
+    display: -webkit-box;       /* Flexbox layout for multi-line truncation */
+    -webkit-box-orient: vertical; /* Ensure vertical box layout for clamping */
+  }
+  .none:hover {
+    text-decoration: underline;
+}
+/* Basic styling for the h2 element with class "form" */
+h2.form {
+    font-size: 2.2rem;             /* Larger font size for better visibility */
+    font-weight: 700;              /* Bold weight for emphasis */
+    color: #4b4b4b;                /* Dark gray color for text */
+    margin: 20px 0;                /* Top and bottom margin to add spacing */
+    text-align: center;            /* Center-align the text */
+    text-transform: uppercase;     /* Make the text uppercase */
+    padding: 12px 20px;            /* Add padding around the text */
+    background-color: #f9f9f9;     /* Light gray background for the heading */
+    border: 2px solid #e1e1e1;     /* Light border to define the heading block */
+    border-radius: 10px;           /* Rounded corners for a soft look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: all 0.3s ease;     /* Smooth transition for hover effects */
+  }
+  
+  /* Hover effect */
+  h2.form:hover {
+    color: #ffffff;                /* White text color on hover */
+    background-color: #e60000;     /* Red background color on hover */
+    border-color: #d50000;         /* Darker red border on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+    cursor: pointer;              /* Change cursor to pointer on hover */
+  }
+  

@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ </head>
+ <style>
+  /* Container to hold input and image */
+.input-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px; /* Adjust max-width as needed */
+}
+
+/* Styling the input field */
+.form-control {
+  width: 100%;
+  padding: 12px 40px 12px 20px; /* Extra space on the right to accommodate the image */
+  font-size: 16px;
+  border-radius: 25px;
+  border: 2px solid #ccc;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+/* Image inside the input */
+.input-image {
+  position: absolute;
+  right: 10px; /* Place the image towards the right inside the input */
+  top: 50%;
+  transform: translateY(-50%); /* Vertically center the image */
+  width: 20px; /* Adjust the size of the image */
+  height: 20px; /* Adjust the size of the image */
+  pointer-events: none; /* Prevent the image from interfering with the input field's interaction */
+}
+
+/* Focused input field styling */
+.form-control:focus {
+  border-color: #007bff;
+  background-color: #fff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+ </style>
+ <body>
+  <div class="input-container">
+    <input type="text" class="form-control" id="name" name="name" placeholder="Search here...">
+    <img class="input-image" src="https://cdn.shopify.com/s/files/1/0671/0621/files/Untitled-11_1_1.png?v=1703835920&amp;width=180" alt="Icon">
+  </div>
+  
+ </body>
+ </html>
