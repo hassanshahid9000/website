@@ -72,18 +72,163 @@
   }
   .key {
     font-size: 18px;               /* Slightly larger text */
-    font-weight: bolder;                 /* Medium weight for readability */
+    font-weight: 400;                 /* Medium weight for readability */
     line-height: 1.6;                 /* Line height for better spacing */
     color: #212529B3;                  /* Dark gray color for the text */
     text-align: left;                 /* Align text to the left */
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /* Modern sans-serif font */
+  }.input-group {
+    display: flex;               /* Flexbox for horizontal alignment */
+    width: 100%;                 /* Ensure the input group takes full width */
   }
- .none{
-    margin-top: 100px;
- }
   
+  .input-group .form-control {
+    width: 75%;                  /* Input takes 75% of the width */
+    margin-right: 1%;            /* Adds 1% gap between input and button */
+  }
+  
+  .input-group .btn {
+    width: 24%;                  /* Button takes 24% of the width */
+    display: flex;               /* Make the button a flex container */
+    justify-content: center;     /* Center the text inside the button */
+    align-items: center;         /* Center the text vertically */
+  }
+.fire{
+    font-size: 15px;
+    font-weight: 400;
+    color: #212925B3; 
+}  
+.none {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 20px;           /* Adds a 20px gap between all child elements */
+  }
+  .swiper {
+    margin-top: 120px;
+    display: flex;                /* Arrange icons horizontally */
+    padding: 10px;                /* Add padding around the icons */
+    gap: 110px;                   /* Add space between the icons */
+    background-color: antiquewhite;
+    align-items: center;          /* Vertically center icons */
+  }
+  
+  /* Icon styling */
+  .swiper i {
+    cursor: pointer;
+    font-size: 20px;              /* Default icon size */
+    color: #333;                  /* Dark gray color for icons */
+    transition: transform 0.3s ease, color 0.3s ease;  /* Smooth hover effects */
+  }
+  
+  /* Hover effects */
+  .swiper i:hover {
+    transform: scale(1.2);        /* Slightly enlarge icon on hover */
+    color: #007bff;               /* Change color to blue on hover */
+  }
+  
+  .panel{
+    margin-bottom: 96px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: block;
+    gap: 25px;
+    text-align: center;
+  }
+  
+   /* General Styling for Lazy h2 */
+.lazy {
+    font-size: 40px;             /* Large font size for heading */
+    font-weight: bold;           /* Bold for emphasis */
+    color: #333;                 /* Dark text color */
+    text-align: center;          /* Center the text */
+    margin-bottom: 20px;         /* Add space below the heading */
+    letter-spacing: 1px;         /* Slight letter spacing */
+    text-transform: capitalize;  /* Capitalize the first letter of each word */
+    transition: all 0.3s ease;   /* Smooth transition for hover effects */
+  }
+
+  /* Styling for the paragraph */
+  .first {
+    font-size: 16px;             /* Set a readable font size */
+    color: #666;                 /* Light gray color for text */
+    text-align: center;          /* Center the paragraph text */
+    line-height: 1.6;            /* Add spacing between lines */
+    max-width: 700px;            /* Limit the width for readability */
+    margin: 0 auto;              /* Center the paragraph */
+    padding: 0 15px;             /* Add some padding */
+    font-family: 'Arial', sans-serif;  /* Use a clean sans-serif font */
+  }
+  .card-img-top{
+    padding: 20px;
+  }
+  .card{
+    border-radius: 15px;
+  }
+  /* Styling for the title */
+.tittle {
+    font-size: 36px;             /* Large font size for emphasis */
+    font-weight: bold;           /* Bold for emphasis */
+    color: #333;                 /* Dark color for readability */
+    text-align: center;          /* Center the title text */
+    margin: 20px 0;              /* Add space above and below */
+    letter-spacing: 2px;         /* Add letter spacing for a modern look */
+    text-transform: capitalize;  /* Capitalize each word */
+    font-family: 'Arial', sans-serif; /* Clean sans-serif font */
+    transition: all 0.3s ease;   /* Smooth transition for hover effect */
+  }
+  /* Responsive Design */
+  @media screen and (max-width: 1200px) {
+    .lazy {
+      font-size: 30px;            /* Reduce font size on larger tablets */
+    }
+  
+    .first {
+      font-size: 16px;            /* Adjust font size for the paragraph */
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .lazy {
+      font-size: 26px;            /* Reduce heading size for medium screens */
+      text-align: left;           /* Align left for better readability */
+    }
+  
+    .first {
+      font-size: 15px;            /* Further adjust paragraph font size */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .lazy {
+      font-size: 24px;            /* Smaller font size for smaller screens */
+      text-align: left;           /* Left align for better mobile view */
+    }
+  
+    .first {
+      font-size: 14px;            /* Smaller paragraph font size */
+      padding: 0 10px;            /* Reduce padding on mobile */
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .lazy {
+      font-size: 22px;            /* Smaller font size for very small screens */
+    }
+  
+    .first {
+      font-size: 13px;            /* Even smaller font size for the paragraph */
+      padding: 0 5px;             /* Further reduce padding */
+    }
+  }
+  
+
+  .mydiv{
+     margin-top: 100px;
+   }
+
 .uc-icon {
     cursor: pointer;
     /* Make the icon clickable */
@@ -159,4 +304,43 @@
         padding: 5px 12px;
         /* Adjust button padding */
     }
-}
+}/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+    .swiper {
+      gap: 60px;                  /* Reduce space between icons */
+    }
+  
+    .swiper i {
+      font-size: 18px;            /* Reduce icon size */
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .swiper {
+      gap: 40px;                  /* Further reduce space between icons */
+    }
+  
+    .swiper i {
+      font-size: 16px;            /* Further reduce icon size */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .swiper {
+      gap: 30px;                  /* Smaller gap on smaller screens */
+    }
+  
+    .swiper i {
+      font-size: 14px;            /* Smaller icon size */
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .swiper {
+      gap: 20px;                  /* Smallest gap on very small screens */
+    }
+  
+    .swiper i {
+      font-size: 12px;            /* Smallest icon size */
+    }
+  }
