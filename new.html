@@ -10,71 +10,305 @@
     <title>New project</title>
 </head>
 
-<body style="background-color: antiquewhite; min-height: 100vh;">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="left-navbar" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                <li class="nav-item">
-                    <img src="asset/logo-light.svg">
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Insights</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">about</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <div class="right-navbar" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                <a class="nav-link active" aria-current="page" href="#">
-                    <span>Request a Demo</span>
-                </a>
-                <a class="nav-link active" aria-current="page" href="#">
-                    <span>log in</span>
-                </a>
-                <button class="web4">start free trail</button>
-                <div class="back">
-                    <i class="fa-solid fa-earth-americas"></i>
-                    <span>En</span>
-                    <span data-uc-navbar-parent-icon class="uc-icon uc-navbar-parent-icon">
-                        <svg width="12" height="12" viewBox="0 0 12 12">
-                            <polyline fill="none" stroke="#000" stroke-width="1.1" points="1 3.5 6 8.5 11 3.5">
-                            </polyline>
-                        </svg>
-                    </span>
-                    <div class="vertical-line-content">
-                        <ul>
-                            <li style="font-size: 20px;">En</li>
-                            <li style="font-size: 20px;">Ar</li>
-                            <li style="font-size: 20px;">Ch</li>
-                        </ul>
+<body>
+    <div class="section">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+
+
+
+
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="left-navbar" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <img src="asset/logo-light.svg">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Insights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-navbar" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <span>Request a Demo</span>
+                    </a>
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <span>log in</span>
+                    </a>
+                    <button class="web4">start free trail</button>
+                    <div class="back">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <span>En</span>
+                        <span data-uc-navbar-parent-icon class="uc-icon uc-navbar-parent-icon">
+                            <svg width="12" height="12" viewBox="0 0 12 12">
+                                <polyline fill="none" stroke="#000" stroke-width="1.1" points="1 3.5 6 8.5 11 3.5">
+                                </polyline>
+                            </svg>
+                        </span>
+                        <div class="vertical-line-content">
+                            <ul>
+                                <li style="font-size: 20px;">En</li>
+                                <li style="font-size: 20px;">Ar</li>
+                                <li style="font-size: 20px;">Ch</li>
+                            </ul>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav> -->
+        <div class="main" style="background-color:  antiquewhite; max-height: 200vh; padding-bottom: 40px;">
+            <div class="container mx-w-xl">
+                <div class="section-inner panel py-4">
+                    <div class="row">
+                        <div class="col-12 col-sm-9 col-lg-5">
+                            <div class="none">
+                                <span>CRM TooL Workflow</span>
+                                <h1 class="line">streamline your Tool Workflow.</h1>
+                                <p class="key">Keep data consistent, with native CRM integrations that streamline your
+                                    entire Tool workflow.</p>
+                                <div class="input-group input-group-lg">
+                                    <input type="text" class="form-control" aria-label="Sizing example input"
+                                        aria-describedby="inputGroup-sizing-lg" placeholder="Your email Address">
+                                    <button class="web4">start free trail</button>
+                                </div>
+                                <p class="fire">No credit Card required</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-lg-7">
+                            <div class="mydiv">
+                                <img src="asset/download(001).webp" style="width: 100%;">
+                                <img src="asset/Open office-1.webp" style="width: 100%;">
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </ul>
+            </div>
         </div>
-    </nav>
-    <div class="container mx-w-xl">
-        <div class="section-inner panel py-4">
-            <div class="row">
-                <div class="col-12 col-sm-9 col-lg-5">
-                 <div class="none">
-                    <span>CRM TooL Workflow</span>
-                    <h1 class="line">streamline your Tool Workflow.</h1>
-                    <p class="key">Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.</p>
-                    <div class="input-group input-group-lg">
-                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Your email Address">
-                      </div>
-                 </div>
+        <div class="main" style="background-color: white; max-height: 150vh; padding-top: 40px; padding-bottom: 40px;">
+            <div class="section">
+                <div class="container">
+                    <div class="panel">
+                        <h2 class="lazy">smart fertures for your bussiness</h2>
+                        <p class="first">We focus on helping you to make useful content more accessible with an utlimate
+                            goal for a good sharing profit as a content creator</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-xl-4 col-lg-4 col-sm-12 col-12">
+                            <div class="card" style="width: 100%;">
+                                <img src="asset/feature-01.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h3 class="h4 m-0">Share tools quickly and confidently in minutes</h3>
+                                    <p class="card-text">This powerful tool eliminates the need to leave Salesforce to
+                                        get things done as I can create a custom proposal with dynamic pricing tables.
+                                        You can also customize your own dynamic versions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4 col-lg-4 col-sm-12 col-12">
+                            <div class="card" style="width: 100%;">
+                                <img src="asset/feature-02.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h3 class="h4 m-0">Connect every part of your entire business</h3>
+                                    <p>Keep data consistent, with native CRM integrations that streamline your entire
+                                        Tool workflow.</p>
+                                    <span>see all integrations</span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4 col-lg-4 col-sm-12 col-12">
+                            <div class="card" style="width: 100%;">
+                                <img src="asset/feature-03.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h3 class="h4 m-0">Maintain compliance and control your apps</h3>
+                                    <p>Improve security and trust with built-in legally binding e-Signatures. Create
+                                        pre-approved templates, content blocks and lock all legal information to prevent
+                                        costly mistakes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main"
+        style="background-color:  antiquewhite; max-height: 150vh; padding-top: 40px; padding-bottom: 100px;">
+        <div class="section">
+            <h2 class="tittle">prevent costly mistakes</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 col-sl-3 col-12 col-sm-12">
+                        <div class="card" style="width: 100%;">
+                            <div class="circle">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="fly">proposal</h5>
+                                <p class="card-text">Share Tools in minutes with pre-built, customizable templates.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-sl-3 col-12 col-sm-12">
+                        <div class="card" style="width: 100%;">
+                            <div class="circle">
+                                <i class="fa-solid fa-camera-retro"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="fly">Quotes</h5>
+                                <p class="card-text">Find out in real time when they’re opened, viewed and signed.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-sl-3 col-12 col-sm-12">
+                        <div class="card" style="width: 100%;">
+                            <div class="circle">
+                                <i class="fa-solid fa-house"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="fly">contracts</h5>
+                                <p class="card-text">Use our native CRM integrations to pull customer data into your
+                                    Tools fast.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 col-sl-3 col-12 col-sm-12">
+                        <div class="card" style="width: 100%;">
+                            <div class="circle">
+                                <i class="fa-solid fa-file"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="fly">eSignatures</h5>
+                                <p class="card-text">Keep your data secure with our legally-binding e-Signature software
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="cont">discovers all features
+                    <i class="fa-solid fa-arrow-right"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="main" style="background-color: white; max-height: 150vh; padding-top: 40px; padding-bottom: 40px;">
+        <div class="panl" style="display: block; gap: 40px;">
+            <div class="favor">
+                <h2 class="star">Simple'scalable pricing</h2>
+                <p class="bazz">No Extra changes.NO Hidden fees.</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 col-12">
+                        <div class="card2">
+                            <div class="tier">
+                                <h3> Essential</h3>
+                                <p class="card-text">for creating impressive tools that generate results</p>
+                            </div>
+                            <div class="narr">
+                                <h5 class="arro">$19 USD</h5>
+                                <span>seat per month, 2 seat max</span>
+                                <span>No cradit card required</span>
+                                <a href="#" class="btn btn-primary">start a free trail</a>
+                            </div>
+                            <div class="tier2">
+                                <span class="soil">Key features:</span>
+                                <div class="hack">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span class="shell">Real-time cracking and notification</span>
+                                </div>
+                                <div class="hack">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span class="shell">Real-time analytics</span>
+                                </div>
+                                <div class="hack">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span class="shell">Drag and drop templates</span>
+                                </div>
+                                <div class="hack">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span class="shell">Project Management</span>
+                                </div>
+                                <div class="hack">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span class="shell">24/7 email and chat support</span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 col-12">
+                        <div class="card" style="width: 100%;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-4 col-md-6 col-sm-12 col-12">
+                        <div class="card" style="width: 100%;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
