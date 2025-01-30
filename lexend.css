@@ -1,43 +1,147 @@
-.navbar-trial-button{
+.navbar-trial-button {
   color: white;
 }
-.hero-section{
+
+.hero-section {
   height: 100vh;
-  background-color: rgb(236, 228, 196);
+  background-color: #F5EEE9;
 }
-.hero-heading{
+
+.hero-heading {
   font-size: 70px;
-  font-weight: bold; 
+  font-weight: bold;
 }
-.title{
+
+.title {
   margin-top: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
   color: black;
 }
-.little{
+
+.little {
   font-size: 25px;
   font-weight: 400;
 }
-.hero-image{
+
+.hero-image {
   margin-top: 120px;
   width: 100%;
   height: 300px;
 }
-.hero-image img{
+
+.hero-image img {
   width: 100%;
   height: 350px;
 }
-.main-box{
+
+.main-box {
   display: flex;
   flex-direction: row;
   padding-top: 100px;
 }
-.nav-link{
+
+.nav-link {
   color: black;
   font-weight: 600;
 }
 
+.section-2 {
+  padding-top: 80px;
+  background-color: #FFFFFF;
+  height: auto;
+  padding-bottom: 80px;
+}
+
+.main {
+  font-size: 40px;
+  font-weight: 700;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+}
+
+.panel {
+  margin-left: 300px;
+  margin-bottom: 100px;
+  margin-right: 300px;
+}
+
+.lazy {
+  font-size: 20px;
+  font-weight: 400;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+}
+
+.card {
+  width: 100%;
+  cursor: pointer;
+  padding: 40px;
+  background-color: #F5EEE9;
+  border-radius: 20px;
+}
+.card2 {
+  width: 100%;
+  cursor: pointer;
+  padding: 40px;
+  height: 320px;
+  border-radius: 10px;
+  background-color: white;
+}
+:hover.card2{
+  background-color: #12715B;
+  color: white;
+}
+.card-img-top{
+  border-radius: 15px;
+}
+.section-3 {
+  height: 100vh;
+  background-color: #F5EEE9;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.bit {
+  font-size: 40px;
+  font-weight: bolder;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.text-tittle{
+ justify-content: center;
+ text-align: center;
+ font-size: 30px;
+ font-weight: 500; 
+}
+.instruction{
+  gap: 20px;
+  display: block;
+}
+.task{
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50%;
+  font-weight: bolder;
+}
+.more-detail{
+  font-size: 20px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding-top: 60px;
+  color: #145E4C;
+}
+.section-4 {
+  padding-top: 80px;
+  background-color: #FFFFFF;
+  height: auto;
+  padding-bottom: 80px;
+}
 
 
 
@@ -53,15 +157,81 @@
 
 
 
-@media screen and (max-width: 500px){
-  .hero-section{
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  .hero-section {
     height: 100%;
     padding-bottom: 100px;
   }
+
+  .title {
+    margin-top: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .hero-image {
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+  }
+
+  .panel {
+    margin-left: 3px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+  }
+
+  .section-2 {
+    padding-top: 40px;
+  }
+
+  .lazy {
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+  }
+.section-3{
+  padding-top: 40px;
+  height: auto;
+}
+  .main {
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+  }
+  .card{
+    margin-top: 20px;
+    padding: 20px;
+  }.card2{
+    margin-top: 20px;
+  }
+  .bit {
+    font-size: 33px;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
-@media screen and (max-width: 440px){
-  .hero-heading{
-    font-size: 48px; 
+@media screen and (max-width: 440px) {
+  .hero-heading {
+    font-size: 48px;
   }
 }
