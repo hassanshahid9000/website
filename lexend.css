@@ -82,6 +82,7 @@
   background-color: #F5EEE9;
   border-radius: 20px;
 }
+
 .card2 {
   width: 100%;
   cursor: pointer;
@@ -90,13 +91,16 @@
   border-radius: 10px;
   background-color: white;
 }
-:hover.card2{
+
+:hover.card2 {
   background-color: #12715B;
   color: white;
 }
-.card-img-top{
+
+.card-img-top {
   border-radius: 15px;
 }
+
 .section-3 {
   height: 100vh;
   background-color: #F5EEE9;
@@ -111,24 +115,28 @@
   text-align: center;
   padding-bottom: 60px;
 }
-.text-tittle{
- justify-content: center;
- text-align: center;
- font-size: 30px;
- font-weight: 500; 
+
+.text-tittle {
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
 }
-.instruction{
+
+.instruction {
   gap: 20px;
   display: block;
 }
-.task{
+
+.task {
   justify-content: center;
   text-align: center;
   font-size: 30px;
   border-radius: 50%;
   font-weight: bolder;
 }
-.more-detail{
+
+.more-detail {
   font-size: 20px;
   margin: 0 auto;
   width: 100%;
@@ -136,12 +144,179 @@
   padding-top: 60px;
   color: #145E4C;
 }
+
 .section-4 {
   padding-top: 80px;
   background-color: #FFFFFF;
   height: auto;
   padding-bottom: 80px;
 }
+
+.simple-heading {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.simple-style {
+  font-size: 20px;
+  text-align: center;
+  color: #6D7073;
+}
+
+.card3 {
+  background-color: #F5EEE9;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.title-5 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.opacity {
+  font-size: 15px;
+  color: #7B7876;
+}
+
+.opacity-2 {
+  font-size: 15px;
+  justify-content: center;
+  color: #585554;
+}
+
+.heading-tittle {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.panel-page2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price-text {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.section-5 {
+  background-color: #FFFFFF;
+  height: auto;
+  padding-bottom: 80px;
+}
+
+.frequently-heading {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.panel-page4 {
+  background-color: #F5EEE9;
+  margin: 64px 200px 0px;
+  border-radius: 30px;
+  padding: 48px;
+}
+
+.section-6 {
+  height: auto;
+  background-color: #FFFFFF;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.feedback-heading {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card4 {
+  margin-top: 40px;
+  background-color: #FFFFFF;
+  border: 2px solid #e0e0e0;
+  padding: 32px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.img-details {
+  font-size: 18px;
+  color: #212529B3;
+}
+.panel-img {
+  margin: 32px;
+  display: flex;
+  gap: 10px;
+}
+
+.this-img {
+  width: 50px;
+  border-radius: 100%;
+  height: 50px;
+}
+
+.arrow-styling {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  color: #145E4C;
+}
+.section-7 {
+  padding-top: 80px;
+  background-color: #F5EEE9;
+  height: auto;
+  padding-bottom: 80px;
+}
+.insight-heading{
+  color: #0e0e0f;
+  margin-bottom: 80px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.card5{
+  background-color: #FFFFFF;
+  padding: 16px 16px 24px;
+  border-radius: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -205,10 +380,12 @@
     text-align: center;
     padding: 0;
   }
-.section-3{
-  padding-top: 40px;
-  height: auto;
-}
+
+  .section-3 {
+    padding-top: 40px;
+    height: auto;
+  }
+
   .main {
     font-size: 30px;
     font-weight: bold;
@@ -216,17 +393,41 @@
     text-align: center;
     padding: 0;
   }
-  .card{
+
+  .card {
     margin-top: 20px;
     padding: 20px;
-  }.card2{
+  }
+
+  .card2 {
     margin-top: 20px;
   }
+
+  .card3 {
+    margin-top: 20px;
+  }
+
   .bit {
     font-size: 33px;
     font-weight: bolder;
     justify-content: center;
     text-align: center;
+  }
+
+  .section-4 {
+    padding-top: 40px;
+    height: auto;
+  }
+
+  .panel-page4 {
+    margin: 6px 20px 0px;
+    padding: 8px;
+  }
+  .section-6 {
+    height: auto;
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
