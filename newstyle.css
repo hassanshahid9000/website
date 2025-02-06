@@ -1,0 +1,157 @@
+.navbar-trial-button {
+    color: white;
+}
+
+.navbar-nav {
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 600;
+}
+
+.hero-section {
+    height: auto;
+    background-color: #FFFFFF;
+    padding-bottom: 80px;
+}
+
+.text-detail {
+    text-align: center;
+    color: #212529B3;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.touch-heading {
+    text-align: center;
+    font-size: 64px;
+    color: black;
+    font-weight: 700;
+}
+
+.mydiv {
+    margin: 0px 249px 64px;
+    margin-top: 50px;
+}
+
+.images {
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+}
+.message-buttton{
+    padding: 10px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    background-color: #0F604D;
+}
+.text-center{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.uc-link{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E5A49;
+    list-style: none;
+}
+.text-heading{
+    font-size: 40px;
+    color: #0e0e0f;
+    font-weight: 700;
+    text-align: center;
+}
+.panel{
+    background-color: #F5EEE9;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .hero-section {
+      height: 100%;
+      padding-bottom: 0px;
+    }
+    .touch-heading {
+        text-align: center;
+        font-size: 24px;
+        color: black;
+        font-weight: 700;
+    }
+    .mydiv {
+        margin: 0px;
+        margin-top: 50px;
+    }
+}
