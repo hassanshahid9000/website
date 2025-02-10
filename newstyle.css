@@ -290,6 +290,9 @@
     height: 24px;
     background-color: black;
   }
+  .accordion-button:focus {
+    box-shadow: none;
+  }
 
 
 
@@ -400,4 +403,9 @@
     padding-top: 10px;
     padding-bottom: 30px;
   }
+  .brand-heading{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
 }
