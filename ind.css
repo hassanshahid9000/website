@@ -1,1 +1,286 @@
- 
+.navbar-trial-button {
+    color: white;
+  }
+  
+  .hero-section {
+    height: auto;
+    background-color: #FFFFFF;
+    padding-bottom: 80px;
+  }.nav-link {
+    color: black;
+    font-weight: 600;
+  }
+  .heading-tittle{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .firstdiv{
+    margin-bottom: 64px;
+    padding-left: 199px;
+    display: block;
+    padding-right: 199px;
+  }
+  .text-detail{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .img-fluid1{
+    border-radius: 7%;
+    width: 100%;
+    height: 600px;
+}
+.section-2{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F5EEE9;
+}
+.help-heading{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px 0px 32px;
+    text-align: center;
+    color: #0E0E0F;
+}
+.second-deatail{
+   font-size: 20px;
+   font-weight: 400;
+   color: #212529B3;
+   margin: 16px 0px 0px;
+   text-align: center;
+}
+.first-deatsil{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #212529B3;
+}
+.span-style{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.working{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0E0E0F;
+}
+.detail2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #212529B3;
+}
+.section-3{
+    background-color: #FFFFFF;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: auto;
+}
+.value-heading{
+    color: #0E0E0F;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.card-header{
+    margin-top: 20px;
+    background-color: #F5EEE9;
+}
+.card2{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #F5EEE9;
+}
+.card-tittle2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0E0E0F;
+}
+.images-detail{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #0E0E0F;
+}
+
+.section-4{
+ padding-bottom: 80px;
+ height: auto;
+ background-color: #FFFFFF;
+}
+
+.client-heading{
+    font-size: 40px;
+    color: #0E0E0F;
+    font-weight: 700;
+    text-align: center;
+}
+
+.panel-div{
+    margin-top: 40px;
+}
+
+.panel-img {
+    margin: 32px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .this-img {
+    width: 50px;
+    border-radius: 100%;
+    height: 50px;
+  }
+  .card4 {
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    border: 2px solid #e0e0e0;
+    padding: 32px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+  }
+  .arrow-styling {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    color: #145E4C;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .hero-section {
+      height: 100%;
+      padding-bottom: 20px;
+    }
+    .heading-tittle{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 20px;
+      }
+      .text-detail{
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+      }
+      .firstdiv{
+        margin-bottom: 20px;
+        padding-left: 10px;
+        display: block;
+        padding-right: 10px;
+      }
+      .img-fluid1{
+        border-radius: 5%;
+        width: 100%;
+        height: 170px;
+    }
+    .section-2{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .span-style{
+        margin-top: 20px;
+    }
+    .second-deatail{
+        font-size: 18px;
+        font-weight: 400;
+        color: #212529B3;
+        margin: 16px 0px 0px;
+        text-align: center;
+     }
+     .first-deatsil{
+         font-size: 18px;
+         font-weight: 400;
+         text-align: center;
+         color: #212529B3;
+     }
+     .section-3{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .card2{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .section-4{
+        padding-bottom: 20px;
+        height: auto;
+       }
+       .arrow-styling{
+
+        padding-top: 10px;
+       }
+       .card4{
+        margin-top: 0px;
+       }
+}

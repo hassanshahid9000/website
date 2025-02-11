@@ -1,97 +1,641 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="asset/logo-light.svg">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="lexend.css">
-    <title>Homepage</title>
-  </head>
-  <body>
-    <div class="container-fluid p-0">
-        
-        <div class="hero-section">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-none">
-                    <div class="container-fluid"> 
-                        <img src="asset/logo-light.svg" alt="">
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                          </li>
-                        </ul>
-                        <form class="d-flex">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <span>Request a Demo</span>
-                            </a>
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <span>log in</span>
-                            </a>
-                            <button class="btn btn-success navbar-trial-button">start free trail</button>
-                            
-                        </form>
-                      </div>
-                    </div>
-                </nav>
-                <div class="row">
-                        <div class="col-md-6">
-                            <div class="title">
-                                <h6>CRM Tool Workflow</h6>
-                                <h1 class="hero-heading">streamline your Tool Workflow.</h1>
-                                <p class="little">Keep data consistent'with native CRM integration that streamline your entire workflow.</p>
-                                <form class="row g-3">
-                                    <div class="col-7">
-                                      <label for="inputPassword2" class="visually-hidden">Password</label>
-                                      <input type="password" class="form-control" id="inputPassword2" placeholder="your email Address">
-                                    </div>
-                                    <div class="col-5">
-                                      <button type="submit" class="btn btn-success mb-3">start free trail</button>
-                                    </div>
-                                  </form>
-                                  <p>No cradit card required</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="hero-image">
-                                <img src="asset/Open office-1.webp" alt="">
-                            </div>
-                        </div>
 
-                    
-                </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="asset/logo-light.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="lexend.css">
+  <title>Homepage</title>
+</head>
+
+<body>
+  <div class="container-fluid p-0">
+
+    <div class="hero-section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-none">
+          <div class="container-fluid">
+            <img src="asset/logo-light.svg" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link active" href="#">Insights</a>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="newpage.html">Contact</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <span>Request a Demo</span>
+                </a>
+                <a class="nav-link active" aria-current="page" href="#">
+                  <span>log in</span>
+                </a>
+                <button class="btn btn-success navbar-trial-button">start free trail</button>
+
+              </form>
             </div>
-            
-
-
+          </div>
+        </nav>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="title">
+              <h6>CRM Tool Workflow</h6>
+              <h1 class="hero-heading">streamline your Tool Workflow.</h1>
+              <p class="little">Keep data consistent'with native CRM integration that streamline your entire workflow.
+              </p>
+              <form class="row g-3">
+                <div class="col-md-7 col-12">
+                  <label for="inputPassword2" class="visually-hidden">Password</label>
+                  <input type="password" class="form-control" id="inputPassword2" placeholder="your email Address">
+                </div>
+                <div class="col-md-5 col-12">
+                  <button type="submit" class="btn btn-success mb-3">start free trail</button>
+                </div>
+              </form>
+              <span>No credit card required.</span>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="hero-image">
+              <img src="asset/Open office-1.webp" alt="" class="images">
+            </div>
+          </div>
         </div>
-        <div class="section-2" style="height: 50vh; background-color: rgb(179, 114, 28);"></div>
-        
+      </div>
     </div>
-    
-    
+    <div class="section-2">
+      <div class="container">
+        <div class="panel">
+          <h2 class="main">Smart features for your bussiness</h2>
+          <p class="lazy">we focus on helping youto make usefulcontent more accessible with an altimate goal for a good
+            sharingprofit as a content creater</p>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12 col-12">
+            <div class="card">
+              <img src="asset/feature-01.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3>Share tools quickly and confidently in minutes</h3>
+                <p class="card-text">This powerful tool eliminates the need to leave Salesforce to get things done as I
+                  can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic
+                  versions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12 col-12">
+            <div class="card">
+              <img src="asset/feature-02.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3>connect every part of your bussiness</h3>
+                <p class="card-text">Keep data consistent, with native CRM integrations that streamline your entire Tool
+                  workflow.</p>
+                <p>see all integration <i class="fa-solid fa-arrow-right"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12 col-12">
+            <div class="card">
+              <img src="asset/feature-03.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3>maintain compliance and control yourapps</h3>
+                <p class="card-text">"Improve security and trust with built-in legally binding e-Signatures. Create
+                  pre-approved templates, content blocks and lock all legal information to prevent costly mistakes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-3">
+      <div class="container">
+        <div class="instruction">
+          <div class="row">
+            <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-12">
+              <h2 class="bit">Prevent Costly mistakes</h2>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-12">
+              <div class="card2" style="width: 100%;">
+                <div class="task"><i class="fa-solid fa-image"></i></div>
+                <div class="card-body">
+                  <h3 class="text-tittle">proposal</h3>
+                  <p class="card-text">Share Tools in minutes with pre-built, customizable templates.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-12">
+              <div class="card2" style="width: 100%;">
+                <div class="task"><i class="fa-solid fa-book"></i></div>
+                <div class="card-body">
+                  <h3 class="text-tittle">Quotes</h3>
+                  <p class="card-text">Find out in real time when they’re opened, viewed and signed.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-12">
+              <div class="card2" style="width: 100%;">
+                <div class="task"><i class="fa-solid fa-globe"></i></div>
+                <div class="card-body">
+                  <h3 class="text-tittle">contracts</h3>
+                  <p class="card-text">Use our native CRM integrations to pull customer data into your Tools fast.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-12">
+              <div class="card2" style="width: 100%;">
+                <div class="task"><i class="fa-solid fa-pen-to-square"></i></div>
+                <div class="card-body">
+                  <h3 class="text-tittle">eSignatures</h3>
+                  <p class="card-text">Keep your data secure with our legally-binding e-Signature software.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-12 d-flex">
+              <span class="more-detail">Discover all features <i class="fa fa-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-4">
+      <div class="container">
+        <h2 class="simple-heading">simple'scalable pricing</h2>
+        <p class="simple-style">No Extra changes. No Hidden fees</p>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-xl-4 col-sm-12 col-12">
+            <div class="card3" style="width: 100%;">
+              <div class="card-body">
+                <h3 class="card-title">Essential</h3>
+                <p class="card-text">For creating impressive tools that generates results</p>
+                <h5 class="title-5">$19 USD</h5>
+                <span class="opacity">seat pre month'2 seats max</span>
+                <div class="panel-page2">
+                  <a href="#" class="btn pricing-button"> start a free trail</a>
+                  <span class="opacity-2">No credit Card required</span>
+                </div>
+                <div class="panel-gap2">
+                  <span class="heading-tittle">Key Features:</span>
+                  <div class="">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Real-time tracking and notification</span>
+                  </div>
+                  <div class="">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Real-time analytics</span>
+                  </div>
+                  <div class="">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Drag and drop template</span>
+                  </div>
+                  <div class="">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Project Management</span>
+                  </div>
+                  <div class="">
+                    <i class="fa-solid fa-check"></i>
+                    <span>24/7 email and chat support</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-4 col-sm-12 col-12">
+            <div class="card3" style="width: 100%;">
+              <div class="card-body">
+                <h3 class="card-title">Business</h3>
+                <p class="card-text">For seamless integration and sending tools in bulk</p>
+                <h5 class="title-5">$49 USD</h5>
+                <span class="opacity">seat cost pre month</span>
+                <div class="panel-page2">
+                  <a href="#" class="btn pricing-button"> start a free trail</a>
+                  <span class="opacity-2">No credit Card required</span>
+                </div>
+                <div class="panel-gap2">
+                  <span class="heading-tittle">Everything in Essential plus:</span>
+                  <div class="">
+                    <i class="fa-solid fa-check"></i>
+                    <span>CRM and Zaiper integration</span>
+                  </div>
+                  <div class="">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Content reporting</span>
+                  </div>
+                  <div class="">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Unlimited team workspace</span>
+                  </div>
+                  <div class="">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Approval workflow</span>
+                  </div>
+                  <div class="">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Salesforce integ</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-4 col-sm-12 col-12">
+            <div class="card3" style="width: 100%;">
+              <div class="card-body">
+                <h3 class="card-title">Enterprise</h3>
+                <p class="card-text">for large companies with complex tool workflow.</p>
+                <h5 class="title-5">Let's Talk</h5>
+                <span class="opacity">per-seat or per-tool pricing</span>
+                <div class="panel-page2">
+                  <a href="#" class="btn pricing-button" id="pricing-btn"> contact sales</a>
+                  <span class="opacity-2">respond within 24hrs max</span>
+                </div>
+                <div class="panel-gap2">
+                  <span class="heading-tittle">Everything in Business plus:</span>
+                  <div class="">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Unlimited files upload</span>
+                  </div>
+                  <div class="">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Real-time tracking and notification</span>
+                  </div>
+                  <div class="">
+                    <i class="fa-solid fa-check"></i>
+                    <span>uses performance</span>
+                  </div>
+                  <div class="">
+                    <i class="fa-solid fa-check"></i>
+                    <span>SSO support and custom user roles</span>
+                  </div>
+                  <div class="">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Bulk send & Forms*</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="price-text">Prices exclude any applicable taxes.</p>
+      </div>
+    </div>
+    <div class="section-5">
+      <div class="container">
+        <h2 class="frequently-heading">frequently asked question</h2>
+        <div class="panel-page4">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  <h4 class="accordion-heading">Do I need to know abouthow to code?</h4>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <P>Yes, you need to have a fair amount of knowledge in dealing with HTML/CSS as well as JavaScript in
+                    order to be able to use Lexend.</P>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h4 class="accordion-heading">can I use it for commercial projects?</h4>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Feel free to do so. Lexend does exist to evolve every commercial project. You can also use it to
+                    build stunning websites for your own clients (we won’t breathe a word).</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <h4 class="accordion-heading">can I use it for multiple projects?</h4>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Definitely! Please use it however you like; we don’t limit it.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingfour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                  <h4 class="accordion-heading">can I use this to create and sell a product?</h4>
+                </button>
+              </h2>
+              <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Do not ever consider doing it.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingfive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                  <h4 class="accordion-heading">what is your refund policy?</h4>
+                </button>
+              </h2>
+              <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>We understand the importance of customer satisfaction and we strive to provide the best products
+                    and services. However, please note that due to the nature of our products and services, we do not
+                    offer refunds after a purchase has been made.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-6">
+      <div class="container">
+        <h2 class="feedback-heading">some client feedbacks</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-xl-4 col-sm-12 col-12">
+            <div class="card4" style="width: 100%;">
+              <img src="asset/brand-07.svg" class="card-img-top2" alt="...">
+              <div class="card-body">
+                <p class="img-details">“We’re looking for people who share our vision! most of our time used to be taken
+                  up by most of alternate administrative work whereas now we can focus on building out to help our
+                  employees.”</p>
+              </div>
+              <div class="panel-img">
+                <img src="asset/01.webp" class="this-img">
+                <div>
+                  <h6>Mark zallers</h6>
+                  <span>CEO ,Co-founder</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-4 col-sm-12 col-12">
+            <div class="card4" style="width: 100%;">
+              <img src="asset/brand-06.svg" class="card-img-top2" alt="...">
+              <div class="card-body">
+                <p class="img-details">This powerful tool eliminates the need to leave Salesforce to get things done as
+                  I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within
+                  36 minutes.</p>
+              </div>
+              <div class="panel-img">
+                <img src="asset/03.webp" class="this-img">
+                <div>
+                  <h6>Natalia Larsson</h6>
+                  <span>Director of sales</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-4 col-sm-12 col-12">
+            <div class="card4" style="width: 100%;">
+              <img src="asset/brand-08.svg" class="card-img-top2" alt="...">
+              <div class="card-body">
+                <p class="img-details">We are based in Europe and the latest Data Protection Regulation forces us to
+                  look for service suppliers that comply with this regulation and as we look to create our website and
+                  this builder just outstanding!.</p>
+              </div>
+              <div class="panel-img">
+                <img src="asset/04.webp" class="this-img">
+                <div>
+                  <h6>Sarah Edrissi</h6>
+                  <span>lead Marketing</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-12 d-flex">
+          <span class="arrow-styling">see all feedbacks<i class="fa fa-arrow-right"></i></span>
+        </div>
+      </div>
+    </div>
+    <div class="section-7">
+      <div class="container">
+        <h2 class="insight-heading">Gain valuable Insights</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-xl-4 col-sm-12 col-12">
+            <div class="card5" style="width: 100%;">
+              <div class="tag-style">
+                <img src="asset/img-11.webp" class="card-img-top" alt="...">
+                <span class="offers2">strategy</span>
+              </div>
+              <h3 class="text-heading">
+                Top 5 reasons to invest in marketing.
+              </h3>
+              <div class="mydiv">
+                <img src="statics/06 (1).webp" alt="image">
+                <div class="name">David</div>
+                <span class="date">February 3, 2025</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-4 col-sm-12 col-12">
+            <div class="card5" style="width: 100%;">
+              <div class="tag-style">
+                <img src="asset/img-12.webp" class="card-img-top" alt="...">
+                <span class="offers2">Marketing</span>
+              </div>
+              <h3 class="text-heading">
+                How can Marketing help your Business?
+              </h3>
+              <div class="mydiv">
+                <img src="statics/01.webp" alt="image">
+                <div class="name">Allen</div>
+                <span class="date">February 3, 2025</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-4 col-sm-12 col-12">
+            <div class="card5" style="width: 100%;">
+              <div class="tag-style">
+                <img src="asset/img-13.webp" class="card-img-top" alt="...">
+                <span class="offers2">Business</span>
+              </div>
+              <h3 class="text-heading">
+                The altimate guide to marketing success
+              </h3>
+              <div class="mydiv">
+                <img src="statics/06.webp" alt="image">
+                <div class="name">Kevin</div>
+                <span class="date">February 3, 2025</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-12 d-flex">
+            <span class="arrow-styling">view more verticle<i class="fa fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
+    <div class="container">
+      <div class="section-8">
+        <div class="last-div">
+          <h2 class="start-heading">
+            Get started with Lexend today
+          </h2>
+          <p class="started-text">With native CRM integrations that streamline your entire Tool workflow.</p>
+          <form class="row g-3">
+            <div class="col-md-7 col-12">
+              <label for="inputPassword2" class="visually-hidden">Password</label>
+              <input type="password" class="form-control" id="inputPassword2" placeholder="your email Address">
+            </div>
+            <div class="col-md-5 col-12">
+              <button type="submit" class="btn btn-success mb-3">Start Free Trial</button>
+            </div>            
+          </form>
+          <p class="last-text">14-day trial, no credit card required.</p>
+        </div>
+      </div>
+      <hr class="devider2">
+    </div>
+  </div>
+  <div class="container">
+    <div class="footer-outer">
+      <div class="row">
+        <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12 col-12">
+          <img src="statics/logo-mark.svg">
+          <p class="footer-text">This powerfull tool eliminates the need to leave Salesforce to get things done as I can
+            create a custom proposal with dynamic pricing tables.</p>
+          <img src="asset/playstore.svg">
+          <img src="asset/appstore.svg">
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 col-sm-6 col-6">
+          <div class="more-text">
+            <li>
+              <a class="footer-link" href="ind.html">About</a>
+            </li>
+            <li>
+              <a class="footer-link">pricing</a>
+            </li>
+            <li>
+              <a class="footer-link">career</a>
+            </li>
+            <li>
+              <a class="footer-link">contact</a>
+            </li>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 col-sm-6 col-6">
+          <div class="more-text">
+            <li class="footer-item">
+              <a class="footer-link">shop</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="ind.html">cart</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link">checkout</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link">order confirmation</a>
+            </li>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 col-sm-6 col-6">
+          <div class="more-text">
+            <li>
+              <a class="footer-link" href="ind.html">Request a Demo</a>
+            </li>
+            <li>
+              <a class="footer-link">sign in</a>
+            </li>
+            <li>
+              <a class="footer-link">sign up</a>
+            </li>
+            <li>
+              <a class="footer-link">reset password</a>
+            </li>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 col-sm-6 col-6">
+          <div class="more-text">
+            <li>
+              <a class="footer-link">Blog</a>
+            </li>
+            <li>
+              <a class="footer-link">Blog detail</a>
+            </li>
+            <li>
+              <a class="footer-link" href="ind.html">Terms of service</a>
+            </li>
+            <li>
+              <a class="footer-link">privacy policy</a>
+            </li>
+          </div>
+        </div>
+      </div>
+      <hr class="devider">
+      <div class="footer-panel">
+        <div class="footer-style">
+          <li><a class="footer-link">
+              privacy notice
+            </a></li>
+          <li><a class="footer-link">
+              Legal
+            </a></li>
+          <li><a class="footer-link">
+              cookies setting
+            </a></li>
+        </div>
+        <div class="justify-center">
+          <li>
+            <i class="fa-brands fa-linkedin"></i>
+          </li>
+          <li>
+            <i class="fa-brands fa-facebook"></i>
+          </li>
+          <li>
+            <i class="fa-brands fa-x"></i>
+          </li>
+          <li>
+            <i class="fa-brands fa-instagram"></i>
+          </li>
+          <li>
+            <i class="fa-brands fa-youtube"></i>
+          </li>
+          <div class="vr"></div>
+        </div>
+        <p class="footer-info">Lexend © 2024, All rights reserved.</p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
